@@ -20,7 +20,7 @@ pipeline{
         
        stage('Executar Testes') {
             steps {      
-                dir('repositorio.it/devops_jenkins-ci'){ 
+                dir('repositorio.it/novo_projeto_jenkinsi'){ 
                     bat 'npx cypress run'
                     
                     
